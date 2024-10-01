@@ -43,6 +43,26 @@ This documentation provides detailed information on the app's features and usage
   - Yahoo
 - **Usage**: Users can select their preferred search engine from the `PopupMenu`.
 
+## Directory Structure
+
+```
+lib
+├── model
+│   └── data.dart
+├── provider
+│   ├── Connection_provider.dart
+│   ├── bookmark.dart
+│   └── browser.dart
+├── view
+│   └── homepage
+│       └── android
+│           ├── bookmarklist.dart
+│           ├── homepage.dart
+│           └── openmark.dart
+└── main.dart
+      
+```           
+
 ## Installation
 
 1. Clone the repository:
